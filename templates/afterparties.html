@@ -10,7 +10,7 @@
 
       <h2>Potential events</h2>
       <ul class="events">
-        {% for event in results %}
+        {% for event in events %}
           <li><a href="{{ event.url }}">{{ event.name.text }}</a></li>
         {% endfor %}
       </ul>
